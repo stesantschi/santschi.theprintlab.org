@@ -1,6 +1,6 @@
 # santschi.theprintlab.org
 
-Personal academic website of Stephanie Santschi. Plain static HTML, CSS and JavaScript. No build step, no cookies, no trackers, nothing loaded from other servers.
+Personal academic website of Stephanie Santschi. Plain static HTML, CSS and JavaScript.
 
 ## Files
 
@@ -18,14 +18,3 @@ Personal academic website of Stephanie Santschi. Plain static HTML, CSS and Java
 | `Santschi_CV.pdf` | CV download (May 2026) |
 | `robots.txt`, `sitemap.xml` | Help search engines find all pages |
 
-## Publishing with GitHub Pages
-
-1. Create a public repository, for example `santschi-website`.
-2. Upload all files in this folder to the root of the repository, including `CNAME` and `.nojekyll`.
-3. In the repository, open Settings, then Pages. Under "Build and deployment", choose "Deploy from a branch", branch `main`, folder `/ (root)`.
-4. At the DNS provider of theprintlab.org, add a CNAME record: name `santschi`, value `<your-github-username>.github.io`.
-5. Back in Settings, Pages, enter `santschi.theprintlab.org` as custom domain if it is not already shown, wait for the DNS check, then tick "Enforce HTTPS".
-
-## Updating
-
-Edit the HTML files directly. The menu and footer are repeated in each page, so a change there must be made in all six pages.
