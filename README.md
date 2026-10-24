@@ -16,8 +16,6 @@ Personal academic website of Stephanie Santschi. Plain static HTML, CSS and Java
 | `style.css`, `site.js` | Shared design and functions for all pages |
 | `*.jpg`, `*.png` | Photos and icons |
 | `Santschi_CV.pdf` | CV download (May 2026) |
-| `CNAME` | Tells GitHub Pages to serve the site at santschi.theprintlab.org |
-| `.nojekyll` | Tells GitHub Pages to serve the files as they are |
 | `robots.txt`, `sitemap.xml` | Help search engines find all pages |
 
 ## Publishing with GitHub Pages
