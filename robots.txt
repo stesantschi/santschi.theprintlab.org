@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://santschi.theprintlab.org/sitemap.xml
