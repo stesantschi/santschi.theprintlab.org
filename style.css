@@ -231,6 +231,14 @@ footer .container { display: flex; justify-content: space-between; flex-wrap: wr
 .page-head h1 { font-size: var(--title); line-height: 1.15; font-weight: 700; color: var(--navy); letter-spacing: -0.015em; }
 .page-head p { color: var(--muted); margin-top: 0.5rem; max-width: var(--measure); }
 .page-head + section { border-top: 0; padding-top: 2.5rem; }
+/* Page heads with a photograph beside the title (Research, Talks, CV) */
+.page-head-figure .container { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 440px); gap: 1.5rem 3rem; align-items: end; }
+.head-figure { margin: 0; }
+.head-figure img { display: block; width: 100%; height: auto; border-radius: var(--radius); }
+.head-figure figcaption { font-size: var(--step--1); color: var(--muted); margin-top: 0.5rem; }
+@media (max-width: 700px) {
+    .page-head-figure .container { grid-template-columns: 1fr; }
+}
 
 /* Unfoldable lists */
 details.more { max-width: 820px; margin-top: 1rem; }
